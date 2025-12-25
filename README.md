@@ -12,8 +12,6 @@
 - [הרצת הפרויקט](#הרצת-הפרויקט)
 - [מבנה הפרויקט](#מבנה-הפרויקט)
 - [תפקידי משתמשים](#תפקידי-משתמשים)
-- [API ושירותים](#api-ושירותים)
-- [פיתוח](#פיתוח)
 
 ## תיאור הפרויקט
 
@@ -58,10 +56,6 @@
 - **Recharts 3.6** - גרפים ודוחות
 - **SweetAlert2 11.26** - חלונות דיאלוג יפים
 
-### כלי פיתוח
-- **ESLint** - לינטר לקוד
-- **TypeScript ESLint** - כללי ESLint ל-TypeScript
-- **Stylis RTL Plugin** - תמיכה ב-RTL
 
 ## 📦 דרישות מקדימות
 
@@ -174,28 +168,7 @@ helpdesk-client/
 - הקצאת תפקידים
 - עדכון פרטים
 
-## 💻 פיתוח
-
-### הוספת קומפוננטה חדשה
-1. צור קובץ בתיקייה המתאימה תחת `src/components/`
-2. ייבא את הקומפוננטה במקום הנדרש
-3. הוסף טיפוסים ב-`src/types/` אם נדרש
-
-### הוספת דף חדש
-1. צור קומפוננטה ב-`src/pages/`
-2. הוסף את הנתיב ב-`src/routes/index.tsx`
-3. עדכן את `routeConfig.ts` אם נדרש
-
-### הוספת שירות API חדש
-1. צור קובץ שירות ב-`src/services/`
-2. השתמש ב-`api.ts` לבקשות HTTP
-3. הוסף טיפוסים מתאימים
-
-### קונפיגורציית RTL
-המערכת מוגדרת לתמיכה מלאה ב-RTL (ימין לשמאל):
-- Stylis RTL Plugin מופעל
-- MUI Theme מוגדר עם `direction: 'rtl'`
-- כל הממשק בעברית
+#
 
 ## 🎨 עיצוב וסטיילינג
 
